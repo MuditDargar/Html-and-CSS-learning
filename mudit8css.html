@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alignment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            margin: auto;
+            background-color: sandybrown;
+
+        }
+
+        .item {
+            border: double rosybrown;
+            padding: 12px 3px;
+            margin: 12px 3px;
+            background-color: rgb(190, 186, 179);
+        }
+
+        #fruit {
+            /* The float CSS property places an element on the left or right side of its container,
+            allowing text and inline elements to wrap around it. */
+             float: right;
+            width: 48%;
+        }
+
+        #computer {
+            float: left;
+            width: 48%;
+        }
+
+        #stationary {
+            /* float: left; */
+            width: 100%;
+            clear: both;
+            /* clear:left; */
+        }
+
+        p,
+        h3 {
+            /* text-align: right;
+            text-align: left;
+            text-align: center; */
+            text-align: justify;
+
+        }
+
+        h1 {
+            margin: 23px auto;
+            width: 45px;
+        }
+    </style>
+</head>
+
+<body>
+    <h class="container" 1>Welcome to my store</h1>
+        <div class="container">
+            <div id="fruit" class="item">
+                <h3>fruits</h3>
+                <p id="fruitspara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
+                    officia
+                    possimus cum porro beatae vitae est id aut maxime animi repudiandae doloremque, architecto deleniti
+                    odit
+                    adipisci nesciunt magnam harum error! Iste, maxime earum! Enim labore quae aliquam voluptate ullam
+                    neque
+                    odio, ipsam doloremque consequuntur! Distinctio deserunt in iure recusandae accusantium fugit hic.
+                    Eius
+                    ipsum, excepturi error inventore quas earum quaerat porro ea cum eum dolores reprehenderit cumque,
+                    sint
+                    quisquam praesentium sit deleniti ex fuga nihil! Molestiae illo iusto quos itaque atque doloremque
+                    consectetur eaque consequatur totam sapiente, quo, ea perspiciatis.</p>
+            </div>
+
+
+            <div id="computer" class="item">
+                <h3>computer</h3>
+                <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam nisi
+                    ipsum, doloremque a at tenetur nesciunt odit molestiae soluta est reprehenderit. Illum sint pariatur
+                    vitae, cum hic, quam adipisci, impedit dolorum praesentium labore libero tenetur asperiores quos
+                    rerum
+                    fugit nesciunt a nulla eum optio. Nemo sint cum omnis error, quos fugit obcaecati deleniti repellat
+                    beatae? Magnam quidem sequi inventore. Error est, laboriosam accusantium velit provident vel quasi
+                    praesentium numquam molestiae maxime animi. Veniam sint dolorum voluptatibus nobis mollitia cumque
+                    tempora explicabo, consequuntur voluptate totam. Labore, possimus impedit! Eveniet, pariatur
+                    doloremque!
+                </p>
+            </div>
+
+
+            <div id="stationary" class="item">
+                <h3>stationary</h3>
+                <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+                    soluta
+                    veniam dolor quidem, dolorum tempora quod assumenda? Aperiam, quas repellat ad numquam doloremque
+                    deleniti animi recusandae dolore rem nulla qui. Dignissimos, ab aperiam, qui laboriosam, facere
+                    debitis
+                    vitae voluptate laborum pariatur numquam quos dolor repudiandae similique itaque cupiditate aliquam
+                    unde
+                    a dolore quibusdam asperiores! Delectus eos, a libero et eveniet tenetur praesentium vitae!
+                    Exercitationem laudantium impedit inventore temporibus nesciunt iusto explicabo autem voluptatibus,
+                    deleniti, unde nisi neque, quam minima officiis libero officia quidem sapiente iste incidunt facere
+                    mollitia molestias repudiandae.</p>
+            </div>
+            <div id="glassespara" class="item">
+                <h3>glassespara</h3>
+                <p id="glassespara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+                    soluta
+                    veniam dolor quidem, dolorum tempora quod assumenda? Aperiam, quas repellat ad numquam doloremque
+                    deleniti animi recusandae dolore rem nulla qui. Dignissimos, ab aperiam, qui laboriosam, facere
+                    debitis
+                    vitae voluptate laborum pariatur numquam quos dolor repudiandae similique itaque cupiditate aliquam
+                    unde
+                    a dolore quibusdam asperiores! Delectus eos, a libero et eveniet tenetur praesentium vitae!
+                    Exercitationem laudantium impedit inventore temporibus nesciunt iusto explicabo autem voluptatibus,
+                    deleniti, unde nisi neque, quam minima officiis libero officia quidem sapiente iste incidunt facere
+                    mollitia molestias repudiandae.</p>
+            </div>
+
+        </div>
+</body>
+
+</html>
